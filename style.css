@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background: #0c111b;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav,
+nav .left,
+nav .left ul,
+nav .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-around;
+    font-size: 1vw;
+    position: fixed;
+    width: 100%;
+    background: #0c111b;
+    color: aliceblue;
+    z-index: 9;
+}
+
+nav .left {
+    width: 35%;
+    gap: 25px;
+}
+
+.image {
+    width: 15%;
+    min-width: 100px;
+}
+
+nav .left img {
+    width: 100%;
+}
+
+nav .left ul {
+    gap: 20px;
+}
+
+nav .right {
+    justify-content: right;
+    width: 50%;
+    height: 10vh;
+    gap: 20px;
+}
+
+nav .right input {
+    outline: none;
+    border: none;
+    height: 50%;
+    font-weight: 600;
+    font-size: 0.9vw;
+    background-color: transparent;
+    color: #eeefef;
+}
+
+input[type="button"]#sub {
+    background-color: #1f80e0;
+    width: 14%;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 0.8vw;
+}
+
+nav .right input[type="search"] {
+    font-weight: 300;
+    font-size: 1.2vw;
+    width: 35%;
+    padding: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid #feeefe;
+    transition: 0.8s;
+}
+nav .right input[type="search"]:hover{
+    width: 50%;
+    border-color: #1f80e0;
+}
+
+nav #toggle {
+    display: none;
+}
+
+.overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    display: none;
+    background-color: #000000b3;
+    z-index: 2;
+}
+
+.overlay .overlay-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+.overlay-links input {
+    background-color: #1f80e0;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.overlay-links input:last-child {
+    background-color: transparent;
+    border: 2px solid;
+}
+
+
+
+header {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    padding: 100px 0;
+    overflow-x: hidden;
+}
+
+.Slideshow {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    transition: transform 0.5s;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+    justify-content: center;
+    color: #eeefef;
+    height: 100%;
+    position: relative;
+    transition: 3s;
+    overflow: hidden;
+}
+
+.slide img {
+    width: 50%;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+}
+
+.slide .description {
+    position: absolute;
+    background: linear-gradient(to right, #030b17 80%, #0c111b00);
+    width: 50%;
+    height: 100%;
+    left: 2%;
+    margin: auto;
+    padding: 70px 0px 0px 50px;
+}
+
+.slide .description h1 {
+    width: 70%;
+    font-size: 30px;
+    padding: 25px 0px;
+
+}
+
+.slide .description p {
+    width: 85%;
+    font-size: 24px;
+    line-height: 50px;
+    color: rgb(179, 179, 179);
+}
+
+.slide img {
+    width: 62%;
+    height: auto;
+    object-fit: cover;
+    margin-left: auto;
+
+}
+
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 70px;
+}
+
+.videos .video {
+    width: 250px;
+    position: relative;
+}
+
+.videos .video video {
+    width: 250px;
+}
+
+.videos .video img {
+    position: absolute;
+    width: 100%;
+}
+
+.videos .video:hover .img-video {
+    display: none;
+}
+
+.movies {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.movies .lists {
+    position: relative;
+    width: 92%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    margin: 0 auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.pre-btn,
+.nxt-btn {
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 5%;
+    font-size: 35px;
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    top: -8%;
+}
+
+.pre-btn:hover,
+.nxt-btn:hover {
+    opacity: 1;
+}
+
+.pre-btn {
+    left: 0;
+}
+
+.nxt-btn {
+    right: 0;
+}
+
+.movies .lists::-webkit-scrollbar {
+    display: none;
+}
+
+.movies .lists .card {
+    position: relative;
+    min-width: 200px;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    transition: .7s;
+    border-radius: 15px;
+}
+
+.movies .lists .card:hover {
+    transform: scale(1.2);
+}
+
+.movies .lists .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movies .lists .card .cards-content {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.152), #1e252b 90%);
+    transition: 0.6s;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+.movies .card:hover .cards-content {
+    opacity: 1;
+}
+
+.cards-content button {
+    background-color: transparent;
+    color: #eeefef;
+    width: 85%;
+    height: 18%;
+    font-size: 18px;
+    outline: none;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.cards-content button:hover {
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: #93949758;
+}
+
+.cards-content h3 {
+    margin-top: 40%;
+}
+
+.cards-content h3,
+.cards-content p {
+    width: 90%;
+    padding-left: 15px;
+}
+
+h2 {
+
+    width: 95%;
+    margin-left: auto;
+    color: #eeefef;
+}
+
+@media screen and (min-width: 760px) and (max-width: 960px) {
+
+    nav,
+    nav .right input {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    nav ul.links,
+    nav .right input {
+        display: none;
+    }
+
+    nav #toggle {
+        display: inline;
+        font-size: 2rem;
+        background-color: transparent;
+        color: #eeefef;
+        border: 0;
+    }
+
+    .overlay.show {
+        display: block;
+    }
+
+    .slide img {
+        width: 550px;
+        height: 350px;
+        object-fit: fill;
+        object-position: 2cm;
+    }
+
+    .slide .description h1 {
+        font-size: 20px;
+    }
+
+    .slide .description p {
+        font-size: 15px;
+    }
+
+}

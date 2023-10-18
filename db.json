@@ -1,0 +1,214 @@
+{
+    "popular": [
+        {
+            "id": 1,
+            "name": "Loki",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 1.png"
+        },
+        {
+            "id": 2,
+            "name": "Mulan",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 2.png"
+        },
+        {
+            "id": 3,
+            "name": "The Falcon and the winter solider",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 3.png"
+        },
+        {
+            "id": 4,
+            "name": "Avengers",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 4.png"
+        },
+        {
+            "id": 5,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 5.png"
+        },
+        {
+            "id": 6,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 6.png"
+        },
+        {
+            "id": 7,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 7.png"
+        },
+        {
+            "id": 8,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 8.png"
+        },
+        {
+            "id": 9,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 9.png"
+        },
+        {
+            "id": 10,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 10.png"
+        },
+        {
+            "id": 11,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 11.png"
+        },
+        {
+            "id": 12,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 12.png"
+        }
+    ],
+    "new":[
+        {
+            "id": 1,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 12.png"
+        },
+        {
+            "id": 2,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 9.png"
+        },
+        {
+            "id": 3,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 11.png"
+        },
+        {
+            "id": 4,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 6.png"
+        },
+        {
+            "id": 5,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 3.png"
+        },
+        {
+            "id": 6,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 1.png"
+        },
+        {
+            "id": 7,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 4.png"
+        },
+        {
+            "id": 8,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 2.png"
+        },
+        {
+            "id": 9,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 10.png"
+        },
+        {
+            "id": 10,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 5.png"
+        }
+
+
+    ],
+    "rec": [
+        {
+            "id": 1,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 12.png"
+        },
+        {
+            "id": 2,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 11.png"
+        },
+        {
+            "id": 3,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 10.png"
+        },
+        {
+            "id": 4,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 9.png"
+        },
+        {
+            "id": 5,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 8.png"
+        },
+        {
+            "id": 6,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 7.png"
+        },
+        {
+            "id": 7,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 6.png"
+        },
+        {
+            "id": 8,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 5.png"
+        },
+        {
+            "id": 9,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 4.png"
+        },
+        {
+            "id": 10,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 3.png"
+        },
+        {
+            "id": 11,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 2.png"
+        },
+        {
+            "id": 12,
+            "name": "Lokia",
+            "desc": "This is some long description that I don't want to edit",
+            "img": "images/poster 1.png"
+        }
+    ]
+}
