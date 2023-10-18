@@ -9,7 +9,7 @@ This is a Disney+ Hotstar Clone project that aims to replicate the popular strea
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/doniahusien/disney-hotstar-clone.git`
+1. Clone the repository: `git clone https://github.com/doniahusien/DisneyHotstarClone.git`
 2. Open the project directory: `cd disney-hotstar-clone`
 3. Open the `index.html` file in your preferred web browser.
 
